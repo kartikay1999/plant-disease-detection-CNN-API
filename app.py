@@ -28,7 +28,7 @@ def predict():
         dc={0: 'Apple',1: 'Apple',2: 'Apple',3: 'Apple',4: 'Blueberry',5: 'Cherry (including sour)',6: 'Cherry (including sour)',7: 'Corn (maize)', 8: 'Corn (maize)', 9: 'Corn (maize)',10: 'Corn (maize)',11: 'Grape',12: 'Grape', 13: 'Grape', 14: 'Grape', 15: 'Orange', 16: 'Peach', 17: 'Peach', 18: 'Pepper, bell',19: 'Pepper, bell',20: 'Potato',21: 'Potato',22: 'Potato', 23: 'Raspberry', 24: 'Soybean',25: 'Squash',26: 'Strawberry', 27: 'Strawberry', 28: 'Tomato',29: 'Tomato',30: 'Tomato',31: 'Tomato',32: 'Tomato',33: 'Tomato',34: 'Tomato',35: 'Tomato',36: 'Tomato',37: 'Tomato'}
         crop=dc[y[0]]
         dis=d[y[0]]
-    return render_template("prediction.html",result = {'Disease':dis})
+    return render_template("prediction.html",result = {'Crop':crop,'Disease':dis})
 if __name__ == "__main__":
     app.run(debug=False)
 
