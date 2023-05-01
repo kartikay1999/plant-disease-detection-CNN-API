@@ -1,5 +1,5 @@
 numpy==1.16.4
-Flask==1.1.1
+Flask==2.3.2
 simplegeneric==0.8.1
 tensorflow==2.5.3
 keras==2.2.4
