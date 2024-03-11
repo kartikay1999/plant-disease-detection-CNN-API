@@ -4,5 +4,5 @@ Flask==2.3.2
 simplegeneric==0.8.1
 tensorflow==2.11.1
 keras==2.2.4
-werkzeug==2.2.3
+werkzeug==2.3.8
 gunicorn==19.5.0
