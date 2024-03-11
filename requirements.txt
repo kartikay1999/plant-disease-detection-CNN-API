@@ -1,7 +1,8 @@
-numpy==1.22.0
-Flask==1.1.1
+
+numpy==1.16.4
+Flask==2.3.2
 simplegeneric==0.8.1
-tensorflow==2.5.3
+tensorflow==2.11.1
 keras==2.2.4
-werkzeug==0.16.1
+werkzeug==2.2.3
 gunicorn==19.5.0
